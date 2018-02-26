@@ -1,0 +1,3253 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/projet-web-semantique/Basset-Roc"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/projet-web-semantique/Basset-Roc">
+    <Prefix name="" IRI="http://www.semanticweb.org/projet-web-semantique/Basset-Roc#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Iluvatar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neutre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dunedains_de_L_Arnor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mauvais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epoque"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kuzdul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elfe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Second_Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Balrog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Géant_de_pierre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elfe_Sylvain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourTaille"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Petit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Premier_Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dalien"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quenya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bard"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OriginaireDe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rohan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eä"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Faible"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rohirrims"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elrond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morphologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Curumo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hommes_Du_Gondor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valinor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gondor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Surhumain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Valarin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arnor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localité"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avari"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cirdan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dunedain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ainur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nordique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morgoth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#raffiné"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Parle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mythologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sauron"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourAlignement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Numenor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grand"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HabiteDans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ForcePhysique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inconnu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pâles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Langue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degré_de_Civilisation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Yavanna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lothlorien"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourComportement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#VientAprès"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Années_Des_Lampes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grishnakh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ForcePhysique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comté"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eomer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iluvatar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Olorìn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aragorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rohirric"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Vie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aiwendil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Boromir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hobbit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mortel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nazgûl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Divine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#civilisé"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Humanoïde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Royaume"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Création_Du_Monde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Snaga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eldar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Legolas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourForcePhysique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bestial"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Noir_Parler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_Val"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aigle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#VientAvant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teleri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Halbarad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elwë"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Troll"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AlliéAvec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tribal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contrée"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pallando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olog-Hai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taille"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Années_Des_Arbres"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Années_Du_Soleil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pieds_Velus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ingwë"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gwaihir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Faramir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OutreTombe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Istari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maiar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DureeDeVie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dieu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fangorn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moyen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hommes_De_Dale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vanyar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Noldor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alignement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Immortel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Manwë"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uruk-Hai"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CrééPar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Géant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourMorphologie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gimli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orientaux"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finwë"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cité"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aulë"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Animale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fondcombe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DescendDe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Westron"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alatar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#EstApparu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#APourNature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Colossal"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Aigle"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Maiar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Surhumain"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Géant"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+                <NamedIndividual IRI="#Manwë"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ainur"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dieu"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Eä"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Alignement"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Neutre"/>
+            <NamedIndividual IRI="#Mauvais"/>
+            <NamedIndividual IRI="#Bon"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Années_Des_Arbres"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Epoque"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAprès"/>
+                <NamedIndividual IRI="#Années_Des_Lampes"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAvant"/>
+                <NamedIndividual IRI="#Années_Du_Soleil"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Années_Des_Lampes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Epoque"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAprès"/>
+                <NamedIndividual IRI="#Création_Du_Monde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAvant"/>
+                <NamedIndividual IRI="#Années_Des_Arbres"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Années_Du_Soleil"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Epoque"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAprès"/>
+                <NamedIndividual IRI="#Années_Des_Arbres"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Avari"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Elfe"/>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#OriginaireDe"/>
+                    <NamedIndividual IRI="#Valinor"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Balrog"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Maiar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Mauvais"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Colossal"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Géant"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+                <NamedIndividual IRI="#Morgoth"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Cité"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Le_Val"/>
+            <NamedIndividual IRI="#Fondcombe"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Contrée"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Comté"/>
+            <NamedIndividual IRI="#VertBois_Le_Grand"/>
+            <NamedIndividual IRI="#Lothlorien"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Création_Du_Monde"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Epoque"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#VientAvant"/>
+                <NamedIndividual IRI="#Années_Des_Lampes"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Degré_de_Civilisation"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#bestial"/>
+            <NamedIndividual IRI="#tribal"/>
+            <NamedIndividual IRI="#civilisé"/>
+            <NamedIndividual IRI="#raffiné"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dieu"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Divine"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Création_Du_Monde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Valarin"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Immortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dunedain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Edain"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Numenor"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Westron"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Dunedains_de_L_Arnor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dunedain"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Arnor"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DureeDeVie"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Immortel"/>
+            <NamedIndividual IRI="#Mortel"/>
+            <NamedIndividual IRI="#OutreTombe"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Edain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Homme"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#AlliéAvec"/>
+                <Class IRI="#Elfe"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Eldar"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Elfe"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Valinor"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Elfe"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourComportement"/>
+                    <NamedIndividual IRI="#civilisé"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourComportement"/>
+                    <NamedIndividual IRI="#raffiné"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Années_Des_Arbres"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Quenya"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Immortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Elfe_Sylvain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Elfe"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#VertBois_Le_Grand"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Ent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Neutre"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Colossal"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Semi-Végétale"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Géant"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Yavanna"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Années_Des_Arbres"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Entique"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Immortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ForcePhysique"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Colossal"/>
+            <NamedIndividual IRI="#Faible"/>
+            <NamedIndividual IRI="#Fort"/>
+            <NamedIndividual IRI="#Surhumain"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Forts"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hobbit"/>
+            <ObjectComplementOf>
+                <Class IRI="#Pieds_Velus"/>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <Class IRI="#Pâles"/>
+            </ObjectComplementOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Geant"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Neutre"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Colossal"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Géant"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Géant_de_pierre"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Geant"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Semi-Minérale"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hobbit"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Faible"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Fort"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourTaille"/>
+                    <NamedIndividual IRI="#Moyen"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourTaille"/>
+                    <NamedIndividual IRI="#Petit"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Animale"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Inconnu"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Comté"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Westron"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Homme"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourComportement"/>
+                <NamedIndividual IRI="#civilisé"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Animale"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Premier_Age"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hommes_De_Dale"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Nordique"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Le_Val"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Dalien"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Hommes_Du_Gondor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dunedain"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Gondor"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Iluvatar"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dieu"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Inconnu"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Inconnu"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Istari"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Maiar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Langue"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Noir_Parler"/>
+            <NamedIndividual IRI="#Quenya"/>
+            <NamedIndividual IRI="#Dalien"/>
+            <NamedIndividual IRI="#Westron"/>
+            <NamedIndividual IRI="#Entique"/>
+            <NamedIndividual IRI="#Kuzdul"/>
+            <NamedIndividual IRI="#Valarin"/>
+            <NamedIndividual IRI="#Rohirric"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Maiar"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ainur"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+                <Class IRI="#Valar"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Morphologie"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+            <NamedIndividual IRI="#Humanoïde"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mythologie"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourNature"/>
+                    <NamedIndividual IRI="#Animale"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourNature"/>
+                    <NamedIndividual IRI="#Semi-Minérale"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Surhumain"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Petit"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Aulë"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Premier_Age"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Kuzdul"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nature"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Semi-Minérale"/>
+            <NamedIndividual IRI="#Divine"/>
+            <NamedIndividual IRI="#Animale"/>
+            <NamedIndividual IRI="#Semi-Végétale"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nazgûl"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Mauvais"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Surhumain"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Sauron"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#OutreTombe"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Noldor"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Eldar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#DescendDe"/>
+                <NamedIndividual IRI="#Finwë"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Nordique"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Edain"/>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#OriginaireDe"/>
+                    <NamedIndividual IRI="#Numenor"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Olog-Hai"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Troll"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+                <Class IRI="#Troll"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Colossal"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Orientaux"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Homme"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#AlliéAvec"/>
+                    <Class IRI="#Elfe"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Mauvais"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Orque"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Fort"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Surhumain"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#DescendDe"/>
+                <Class IRI="#Elfe"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Mauvais"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourComportement"/>
+                <NamedIndividual IRI="#tribal"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Années_Des_Arbres"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Noir_Parler"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pieds_Velus"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hobbit"/>
+            <ObjectComplementOf>
+                <Class IRI="#Forts"/>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <Class IRI="#Pâles"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pâles"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Hobbit"/>
+            <ObjectComplementOf>
+                <Class IRI="#Forts"/>
+            </ObjectComplementOf>
+            <ObjectComplementOf>
+                <Class IRI="#Pieds_Velus"/>
+            </ObjectComplementOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Moyen"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Race"/>
+        <ObjectIntersectionOf>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#APourComportement"/>
+                <Class IRI="#Degré_de_Civilisation"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <Class IRI="#Localité"/>
+            </ObjectMinCardinality>
+            <ObjectMinCardinality cardinality="1">
+                <ObjectProperty IRI="#Parle"/>
+                <Class IRI="#Langue"/>
+            </ObjectMinCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#APourAlignement"/>
+                <Class IRI="#Alignement"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <Class IRI="#ForcePhysique"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#APourNature"/>
+                <Class IRI="#Nature"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#APourTaille"/>
+                <Class IRI="#Taille"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#CrééPar"/>
+                <Class IRI="#Dieu"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#EstApparu"/>
+                <Class IRI="#Epoque"/>
+            </ObjectExactCardinality>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#Vie"/>
+                <Class IRI="#DureeDeVie"/>
+            </ObjectExactCardinality>
+            <ObjectMaxCardinality cardinality="1">
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <Class IRI="#Morphologie"/>
+            </ObjectMaxCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Rohirrims"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Nordique"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Rohan"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Rohirric"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Royaume"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Valinor"/>
+            <NamedIndividual IRI="#Gondor"/>
+            <NamedIndividual IRI="#Arnor"/>
+            <NamedIndividual IRI="#Numenor"/>
+            <NamedIndividual IRI="#Rohan"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Snaga"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Orque"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Taille"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Grand"/>
+            <NamedIndividual IRI="#Géant"/>
+            <NamedIndividual IRI="#Moyen"/>
+            <NamedIndividual IRI="#Petit"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Teleri"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Eldar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#DescendDe"/>
+                <NamedIndividual IRI="#Elwë"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Troll"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Race"/>
+            <ObjectUnionOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Colossal"/>
+                </ObjectHasValue>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#APourForcePhysique"/>
+                    <NamedIndividual IRI="#Surhumain"/>
+                </ObjectHasValue>
+            </ObjectUnionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Mauvais"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Géant"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Morgoth"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Années_Des_Lampes"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Uruk-Hai"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Orque"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+                <Class IRI="#Orque"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Surhumain"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Valar"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Ainur"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+                <Class IRI="#Maiar"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Vanyar"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Eldar"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#DescendDe"/>
+                <NamedIndividual IRI="#Ingwë"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Aigle"/>
+        <Class IRI="#Maiar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ainur"/>
+        <Class IRI="#Dieu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Années_Des_Arbres"/>
+        <Class IRI="#Epoque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Années_Des_Lampes"/>
+        <Class IRI="#Epoque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Années_Du_Soleil"/>
+        <Class IRI="#Epoque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avari"/>
+        <Class IRI="#Elfe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Balrog"/>
+        <Class IRI="#Maiar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cité"/>
+        <Class IRI="#Localité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contrée"/>
+        <Class IRI="#Localité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Création_Du_Monde"/>
+        <Class IRI="#Epoque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dieu"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dunedain"/>
+        <Class IRI="#Edain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dunedains_de_L_Arnor"/>
+        <Class IRI="#Dunedain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edain"/>
+        <Class IRI="#Homme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eldar"/>
+        <Class IRI="#Elfe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elfe"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elfe_Sylvain"/>
+        <Class IRI="#Elfe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ent"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forts"/>
+        <Class IRI="#Hobbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geant"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Géant_de_pierre"/>
+        <Class IRI="#Geant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hobbit"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homme"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hommes_De_Dale"/>
+        <Class IRI="#Nordique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hommes_Du_Gondor"/>
+        <Class IRI="#Dunedain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iluvatar"/>
+        <Class IRI="#Dieu"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Istari"/>
+        <Class IRI="#Maiar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maiar"/>
+        <Class IRI="#Ainur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nain"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nazgûl"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Noldor"/>
+        <Class IRI="#Eldar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nordique"/>
+        <Class IRI="#Edain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Olog-Hai"/>
+        <Class IRI="#Troll"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orientaux"/>
+        <Class IRI="#Homme"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orque"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pieds_Velus"/>
+        <Class IRI="#Hobbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pâles"/>
+        <Class IRI="#Hobbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rohirrims"/>
+        <Class IRI="#Nordique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royaume"/>
+        <Class IRI="#Localité"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Snaga"/>
+        <Class IRI="#Orque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teleri"/>
+        <Class IRI="#Eldar"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Troll"/>
+        <Class IRI="#Race"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruk-Hai"/>
+        <Class IRI="#Orque"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valar"/>
+        <Class IRI="#Ainur"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vanyar"/>
+        <Class IRI="#Eldar"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Avari"/>
+        <Class IRI="#Eldar"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dieu"/>
+        <Class IRI="#Elfe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dieu"/>
+        <Class IRI="#Ent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Dunedain"/>
+        <Class IRI="#Nordique"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Epoque"/>
+        <Class IRI="#Localité"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Forts"/>
+        <Class IRI="#Pieds_Velus"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Forts"/>
+        <Class IRI="#Pâles"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hobbit"/>
+        <Class IRI="#Homme"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Hobbit"/>
+        <Class IRI="#Nain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Homme"/>
+        <Class IRI="#Nain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Pieds_Velus"/>
+        <Class IRI="#Pâles"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Istari"/>
+        <NamedIndividual IRI="#Aiwendil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Istari"/>
+        <NamedIndividual IRI="#Alatar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature"/>
+        <NamedIndividual IRI="#Animale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dunedains_de_L_Arnor"/>
+        <NamedIndividual IRI="#Aragorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Royaume"/>
+        <NamedIndividual IRI="#Arnor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Valar"/>
+        <NamedIndividual IRI="#Aulë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#APourAlignement"/>
+            <NamedIndividual IRI="#Bon"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#Aulë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hommes_De_Dale"/>
+        <NamedIndividual IRI="#Bard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alignement"/>
+        <NamedIndividual IRI="#Bon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hommes_Du_Gondor"/>
+        <NamedIndividual IRI="#Boromir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Teleri"/>
+        <NamedIndividual IRI="#Cirdan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForcePhysique"/>
+        <NamedIndividual IRI="#Colossal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contrée"/>
+        <NamedIndividual IRI="#Comté"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Istari"/>
+        <NamedIndividual IRI="#Curumo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Dalien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature"/>
+        <NamedIndividual IRI="#Divine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Noldor"/>
+        <NamedIndividual IRI="#Elrond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DescendDe"/>
+            <Class IRI="#Edain"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Elrond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eldar"/>
+        <NamedIndividual IRI="#Elwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Entique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rohirrims"/>
+        <NamedIndividual IRI="#Eomer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Localité"/>
+        <NamedIndividual IRI="#Eä"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForcePhysique"/>
+        <NamedIndividual IRI="#Faible"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ent"/>
+        <NamedIndividual IRI="#Fangorn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Faramir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourComportement"/>
+                <NamedIndividual IRI="#civilisé"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Animale"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#AlliéAvec"/>
+                <NamedIndividual IRI="#Elrond"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Premier_Age"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Gondor"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Numenor"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Westron"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Faramir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eldar"/>
+        <NamedIndividual IRI="#Finwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cité"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForcePhysique"/>
+        <NamedIndividual IRI="#Fort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nain"/>
+        <NamedIndividual IRI="#Gimli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Royaume"/>
+        <NamedIndividual IRI="#Gondor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taille"/>
+        <NamedIndividual IRI="#Grand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Orque"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Aigle"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taille"/>
+        <NamedIndividual IRI="#Géant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Halbarad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourAlignement"/>
+                <NamedIndividual IRI="#Bon"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourComportement"/>
+                <NamedIndividual IRI="#civilisé"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourForcePhysique"/>
+                <NamedIndividual IRI="#Fort"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourMorphologie"/>
+                <NamedIndividual IRI="#Humanoïde"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourNature"/>
+                <NamedIndividual IRI="#Animale"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#APourTaille"/>
+                <NamedIndividual IRI="#Grand"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#AlliéAvec"/>
+                <NamedIndividual IRI="#Elrond"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#CrééPar"/>
+                <NamedIndividual IRI="#Iluvatar"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#EstApparu"/>
+                <NamedIndividual IRI="#Premier_Age"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#HabiteDans"/>
+                <NamedIndividual IRI="#Arnor"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#OriginaireDe"/>
+                <NamedIndividual IRI="#Numenor"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Parle"/>
+                <NamedIndividual IRI="#Westron"/>
+            </ObjectHasValue>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#Vie"/>
+                <NamedIndividual IRI="#Mortel"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Halbarad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morphologie"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DureeDeVie"/>
+        <NamedIndividual IRI="#Immortel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="#Inconnu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Eldar"/>
+        <NamedIndividual IRI="#Ingwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cité"/>
+        <NamedIndividual IRI="#Le_Val"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Elfe_Sylvain"/>
+        <NamedIndividual IRI="#Legolas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contrée"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Valar"/>
+        <NamedIndividual IRI="#Manwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+            <Class IRI="#Valar"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Manwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#APourAlignement"/>
+            <NamedIndividual IRI="#Bon"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#Manwë"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alignement"/>
+        <NamedIndividual IRI="#Mauvais"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Valar"/>
+        <NamedIndividual IRI="#Morgoth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#APourAlignement"/>
+            <NamedIndividual IRI="#Mauvais"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#Morgoth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DureeDeVie"/>
+        <NamedIndividual IRI="#Mortel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taille"/>
+        <NamedIndividual IRI="#Moyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Alignement"/>
+        <NamedIndividual IRI="#Neutre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Royaume"/>
+        <NamedIndividual IRI="#Numenor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Istari"/>
+        <NamedIndividual IRI="#Olorìn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DureeDeVie"/>
+        <NamedIndividual IRI="#OutreTombe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Istari"/>
+        <NamedIndividual IRI="#Pallando"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pâles"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Taille"/>
+        <NamedIndividual IRI="#Petit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Quenya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Royaume"/>
+        <NamedIndividual IRI="#Rohan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Rohirric"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectIntersectionOf>
+            <Class IRI="#Dieu"/>
+            <Class IRI="#Maiar"/>
+        </ObjectIntersectionOf>
+        <NamedIndividual IRI="#Sauron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#APourAlignement"/>
+            <NamedIndividual IRI="#Mauvais"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#Sauron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Second_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature"/>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nature"/>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ForcePhysique"/>
+        <NamedIndividual IRI="#Surhumain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Valarin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Royaume"/>
+        <NamedIndividual IRI="#Valinor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contrée"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Morphologie"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Langue"/>
+        <NamedIndividual IRI="#Westron"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Valar"/>
+        <NamedIndividual IRI="#Yavanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#APourAlignement"/>
+            <NamedIndividual IRI="#Bon"/>
+        </ObjectHasValue>
+        <NamedIndividual IRI="#Yavanna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Degré_de_Civilisation"/>
+        <NamedIndividual IRI="#bestial"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Degré_de_Civilisation"/>
+        <NamedIndividual IRI="#civilisé"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Degré_de_Civilisation"/>
+        <NamedIndividual IRI="#raffiné"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Degré_de_Civilisation"/>
+        <NamedIndividual IRI="#tribal"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aiwendil"/>
+        <NamedIndividual IRI="#Alatar"/>
+        <NamedIndividual IRI="#Animale"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Aragorn"/>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Aulë"/>
+        <NamedIndividual IRI="#Bard"/>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Boromir"/>
+        <NamedIndividual IRI="#Cirdan"/>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Curumo"/>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Divine"/>
+        <NamedIndividual IRI="#Elrond"/>
+        <NamedIndividual IRI="#Elwë"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Eomer"/>
+        <NamedIndividual IRI="#Eä"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fangorn"/>
+        <NamedIndividual IRI="#Faramir"/>
+        <NamedIndividual IRI="#Finwë"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Gimli"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Immortel"/>
+        <NamedIndividual IRI="#Inconnu"/>
+        <NamedIndividual IRI="#Ingwë"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Le_Val"/>
+        <NamedIndividual IRI="#Legolas"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#Manwë"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Morgoth"/>
+        <NamedIndividual IRI="#Mortel"/>
+        <NamedIndividual IRI="#Moyen"/>
+        <NamedIndividual IRI="#Neutre"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Olorìn"/>
+        <NamedIndividual IRI="#OutreTombe"/>
+        <NamedIndividual IRI="#Pallando"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+        <NamedIndividual IRI="#Petit"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Sauron"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+        <NamedIndividual IRI="#Surhumain"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Valinor"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+        <NamedIndividual IRI="#Westron"/>
+        <NamedIndividual IRI="#Yavanna"/>
+        <NamedIndividual IRI="#bestial"/>
+        <NamedIndividual IRI="#civilisé"/>
+        <NamedIndividual IRI="#raffiné"/>
+        <NamedIndividual IRI="#tribal"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aiwendil"/>
+        <NamedIndividual IRI="#Alatar"/>
+        <NamedIndividual IRI="#Animale"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Aragorn"/>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Aulë"/>
+        <NamedIndividual IRI="#Bard"/>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Boromir"/>
+        <NamedIndividual IRI="#Cirdan"/>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Curumo"/>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Elrond"/>
+        <NamedIndividual IRI="#Elwë"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Eomer"/>
+        <NamedIndividual IRI="#Eä"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fangorn"/>
+        <NamedIndividual IRI="#Faramir"/>
+        <NamedIndividual IRI="#Finwë"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Gimli"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Immortel"/>
+        <NamedIndividual IRI="#Inconnu"/>
+        <NamedIndividual IRI="#Ingwë"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Le_Val"/>
+        <NamedIndividual IRI="#Legolas"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#Manwë"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Morgoth"/>
+        <NamedIndividual IRI="#Mortel"/>
+        <NamedIndividual IRI="#Neutre"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Olorìn"/>
+        <NamedIndividual IRI="#OutreTombe"/>
+        <NamedIndividual IRI="#Pallando"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+        <NamedIndividual IRI="#Petit"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Sauron"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+        <NamedIndividual IRI="#Surhumain"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Valinor"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+        <NamedIndividual IRI="#Westron"/>
+        <NamedIndividual IRI="#Yavanna"/>
+        <NamedIndividual IRI="#bestial"/>
+        <NamedIndividual IRI="#civilisé"/>
+        <NamedIndividual IRI="#raffiné"/>
+        <NamedIndividual IRI="#tribal"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aiwendil"/>
+        <NamedIndividual IRI="#Alatar"/>
+        <NamedIndividual IRI="#Animale"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Aragorn"/>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Aulë"/>
+        <NamedIndividual IRI="#Bard"/>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Boromir"/>
+        <NamedIndividual IRI="#Cirdan"/>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Curumo"/>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Elrond"/>
+        <NamedIndividual IRI="#Elwë"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Eomer"/>
+        <NamedIndividual IRI="#Eä"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fangorn"/>
+        <NamedIndividual IRI="#Faramir"/>
+        <NamedIndividual IRI="#Finwë"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Gimli"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Immortel"/>
+        <NamedIndividual IRI="#Inconnu"/>
+        <NamedIndividual IRI="#Ingwë"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Le_Val"/>
+        <NamedIndividual IRI="#Legolas"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#Manwë"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Morgoth"/>
+        <NamedIndividual IRI="#Mortel"/>
+        <NamedIndividual IRI="#Neutre"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Olorìn"/>
+        <NamedIndividual IRI="#Pallando"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+        <NamedIndividual IRI="#Petit"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Sauron"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+        <NamedIndividual IRI="#Surhumain"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Valinor"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+        <NamedIndividual IRI="#Westron"/>
+        <NamedIndividual IRI="#Yavanna"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aiwendil"/>
+        <NamedIndividual IRI="#Alatar"/>
+        <NamedIndividual IRI="#Animale"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Aragorn"/>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Aulë"/>
+        <NamedIndividual IRI="#Bard"/>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Boromir"/>
+        <NamedIndividual IRI="#Cirdan"/>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Curumo"/>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Elrond"/>
+        <NamedIndividual IRI="#Elwë"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Eomer"/>
+        <NamedIndividual IRI="#Eä"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fangorn"/>
+        <NamedIndividual IRI="#Faramir"/>
+        <NamedIndividual IRI="#Finwë"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Gimli"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Immortel"/>
+        <NamedIndividual IRI="#Inconnu"/>
+        <NamedIndividual IRI="#Ingwë"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Le_Val"/>
+        <NamedIndividual IRI="#Legolas"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#Manwë"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Morgoth"/>
+        <NamedIndividual IRI="#Mortel"/>
+        <NamedIndividual IRI="#Neutre"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Olorìn"/>
+        <NamedIndividual IRI="#Pallando"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+        <NamedIndividual IRI="#Petit"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Sauron"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Semi-Minérale"/>
+        <NamedIndividual IRI="#Semi-Végétale"/>
+        <NamedIndividual IRI="#Surhumain"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Valinor"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+        <NamedIndividual IRI="#Westron"/>
+        <NamedIndividual IRI="#Yavanna"/>
+        <NamedIndividual IRI="#bestial"/>
+        <NamedIndividual IRI="#civilisé"/>
+        <NamedIndividual IRI="#raffiné"/>
+        <NamedIndividual IRI="#tribal"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Aiwendil"/>
+        <NamedIndividual IRI="#Alatar"/>
+        <NamedIndividual IRI="#Années_Des_Arbres"/>
+        <NamedIndividual IRI="#Années_Des_Lampes"/>
+        <NamedIndividual IRI="#Années_Du_Soleil"/>
+        <NamedIndividual IRI="#Aragorn"/>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Aulë"/>
+        <NamedIndividual IRI="#Bard"/>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Boromir"/>
+        <NamedIndividual IRI="#Cirdan"/>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Création_Du_Monde"/>
+        <NamedIndividual IRI="#Curumo"/>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Elrond"/>
+        <NamedIndividual IRI="#Elwë"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Eomer"/>
+        <NamedIndividual IRI="#Eä"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fangorn"/>
+        <NamedIndividual IRI="#Faramir"/>
+        <NamedIndividual IRI="#Finwë"/>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Gimli"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Grishnakh"/>
+        <NamedIndividual IRI="#Gwaihir"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Iluvatar"/>
+        <NamedIndividual IRI="#Immortel"/>
+        <NamedIndividual IRI="#Inconnu"/>
+        <NamedIndividual IRI="#Ingwë"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Le_Val"/>
+        <NamedIndividual IRI="#Legolas"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#Manwë"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Morgoth"/>
+        <NamedIndividual IRI="#Mortel"/>
+        <NamedIndividual IRI="#Neutre"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Olorìn"/>
+        <NamedIndividual IRI="#Pallando"/>
+        <NamedIndividual IRI="#Peregrin_Touc"/>
+        <NamedIndividual IRI="#Petit"/>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Sauron"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Surhumain"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Valinor"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+        <NamedIndividual IRI="#Westron"/>
+        <NamedIndividual IRI="#Yavanna"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Arnor"/>
+        <NamedIndividual IRI="#Gondor"/>
+        <NamedIndividual IRI="#Numenor"/>
+        <NamedIndividual IRI="#Rohan"/>
+        <NamedIndividual IRI="#Valinor"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Bon"/>
+        <NamedIndividual IRI="#Mauvais"/>
+        <NamedIndividual IRI="#Neutre"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Colossal"/>
+        <NamedIndividual IRI="#Faible"/>
+        <NamedIndividual IRI="#Fort"/>
+        <NamedIndividual IRI="#Surhumain"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Comté"/>
+        <NamedIndividual IRI="#Lothlorien"/>
+        <NamedIndividual IRI="#VertBois_Le_Grand"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Dalien"/>
+        <NamedIndividual IRI="#Entique"/>
+        <NamedIndividual IRI="#Kuzdul"/>
+        <NamedIndividual IRI="#Noir_Parler"/>
+        <NamedIndividual IRI="#Quenya"/>
+        <NamedIndividual IRI="#Rohirric"/>
+        <NamedIndividual IRI="#Valarin"/>
+        <NamedIndividual IRI="#Westron"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Fondcombe"/>
+        <NamedIndividual IRI="#Le_Val"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Grand"/>
+        <NamedIndividual IRI="#Géant"/>
+        <NamedIndividual IRI="#Petit"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Humanoïde"/>
+        <NamedIndividual IRI="#Vertébrés_Tétrapodes_Ailés"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Premier_Age"/>
+        <NamedIndividual IRI="#Second_Age"/>
+        <NamedIndividual IRI="#Troisieme_Age"/>
+    </DifferentIndividuals>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+        <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#VientAprès"/>
+        <ObjectProperty IRI="#VientAvant"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourAlignement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourComportement"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourForcePhysique"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourMorphologie"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourNature"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#APourTaille"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#CrééPar"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#EstApparu"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Vie"/>
+    </FunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#AlliéAvec"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#CrééPar"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#DescendDe"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#VientAprès"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#VientAvant"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourAlignement"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourComportement"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourForcePhysique"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourMorphologie"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourNature"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#APourTaille"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AlliéAvec"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CrééPar"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DescendDe"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#EstApparu"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HabiteDans"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#OriginaireDe"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Parle"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Vie"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#VientAprès"/>
+        <Class IRI="#Epoque"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#VientAvant"/>
+        <Class IRI="#Epoque"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourAlignement"/>
+        <Class IRI="#Alignement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourComportement"/>
+        <Class IRI="#Degré_de_Civilisation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourForcePhysique"/>
+        <Class IRI="#ForcePhysique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourMorphologie"/>
+        <Class IRI="#Morphologie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourNature"/>
+        <Class IRI="#Nature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#APourTaille"/>
+        <Class IRI="#Taille"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AlliéAvec"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CrééPar"/>
+        <Class IRI="#Dieu"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DescendDe"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#EstApparu"/>
+        <Class IRI="#Epoque"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HabiteDans"/>
+        <Class IRI="#Localité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#InférieurHiérarchiquementA"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#OriginaireDe"/>
+        <Class IRI="#Localité"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Parle"/>
+        <Class IRI="#Langue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SupérieurHiérarchiquementA"/>
+        <Class IRI="#Race"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Vie"/>
+        <Class IRI="#DureeDeVie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#VientAprès"/>
+        <Class IRI="#Epoque"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#VientAvant"/>
+        <Class IRI="#Epoque"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ForcePhysique"/>
+        <Class IRI="#Race"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aigle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les Aigles sont des oiseaux géants et sentients. Ce sont des Maiars associés à Manwë, et servent d&apos;intermédiaire au Deus Ex Machina lors de nombreux récit de la littérature de Tolkien.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ainur</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Les Saints&quot; en Quenya. Ils sont à l&apos;origine du monde à travers la musique des Ainurs, qui grâce à Iluvatar créa la Terre, Arda. Une partie d&apos;entre eux choisirent de vivre en Arda après sa création, et devinrent pour les plus puissants les 14 Valars, pour les autres des Maiars. Morgoth, alors appelé Melkor, est un de ces Ainurs parti en Arda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aiwendil</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Radagast en langue commune</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alatar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un des deux mages bleu, envoyés lutter contre Sauron dans l&apos;est.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Alignement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Correspond à l&apos;alignement moyen des membres d&apos;une race. Il ne s&apos;agit pas forcément d&apos;une vérité générale, mais du penchant majeur : Si les Edains sont majoritairement bons, certains sont sournois et mauvais. Par exemple Grima, un Rohirrim conseiller du Roi du Rohan, est corrompu et trahi son Roi.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Années_Des_Arbres</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Commencement : Naissance des deux arbres Telperion et Laurelin.
+Fin : Destruction des Arbres par Melkor et premier lever du soleil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Années_Des_Arbres</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le monde est éclairé par deux arbres, Telperion le Blanc et Laurelin le Doré. Le décompte du temps commence à cette  époque.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Années_Des_Lampes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Commencement : Arrivée des Valars et Maiars en Arda
+Fin : Destruction des Lampes par Melkor, et naissance des deux Arbres</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Années_Des_Lampes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Période méconnue car se déroule avant l&apos;apparition des Enfants D&apos;Iluvatar, les Elfes et les Hommes. Correspond à la colonisation du monde par les Valars et Maiars. C&apos;est dans cette ère que le monde sera éclairé par deux lampes, pendant la période dite du Printemps d&apos;Arda. Les Années des Lampes se terminent avec la destruction des lampes par Melkor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Années_Du_Soleil</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Période &quot;actuelle&quot; de la mythologie de Tolkien. Elle  traverse trois âges, le roman &quot;Le Seigneur des Anneaux&quot; fini avec le début du 4em âge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aragorn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Descendant d&apos;Elendil et héritié des royaumes de Gondor et d&apos;Arnor, qu&apos;il réunifira après la guerre de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Arnor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fondé en l’an 3320 du deuxième âge par Elendil le Numenoreen, l’Arnor était le premier royaume des Dunedains de la terre du milieu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Aulë</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un des Valars. Il compose les matériaux servant à construire Arda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Avari</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Elfes n&apos;ayants jamais été en Valinor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Balrog</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les Balrogs sont des Maiars corrompus par Morgoth. Ils sont incarnés en Terre du Milieu sous la forme de démons géants dotés d&apos;une crinière de feu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bard</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Surnommé Bard l&apos;Archer, Bard est un homme de Dale. Pendant les évenements du Hobbit, Bard tue le dragon Smaug, et devient par la suite Roi de la cité du Val.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Boromir</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Capitaine de la tour Blanche, fils de Denethor intendant du Gondor, Boromir voyage au nord vers Fondcombe pendant la guerre de l&apos;anneau, suivant l&apos;appel d&apos;une vision que lui et son frère ont eu en rêve. Il rejoint alors la communauté de l&apos;anneau. Au cours du voyage, il ressend plus fortement que les autres l&apos;appel de l&apos;Anneau Unique, et rendu fou par celui ci tente de le voler à Frodon. Il meurt dans l&apos;attaque Uruk qui suit, où, honteux de sa trahison, il défend bravement les Hobbits Merry et Pippin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cirdan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cirdan est un des Elfes les plus vieux encore sur la Terre Du Milieu. Aucun texte de Tolkien ne relate sa naissance, mais il est probable qu&apos;il fasse partie des premiers Elfes nés à Cuivienen. Lors de la guerre de l&apos;anneau, il prete main forte aux dunédains du nord. Il reigne sur les Havres Gris, dernier port de passage entre la Terre Du Milieu et les Terres Immortelles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Comté</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Territoire Hobbit en Eriador, à l’ouest du brandevin et à l’est des hauts reculés. De part le caractère placide de ses habitants, la comté ne connait pas ou peu d&apos;évenements marquants en dehors de ceux de la guerre de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Création_Du_Monde</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Période de la création d&apos;Arda, le monde de Tolkien (Arda signifie &quot;Le Royaume&quot;, et correspond à la Terre). Il apparait à travers la grande musique interpétée par les Ainurs, êtres créés par Iluvatar. Epris du monde créé par leur musique et la volontée d&apos;Iluvatar, certains Ainur décident d&apos;habiter ce monde, et deviennent pour les plus puissants les Valars et leurs serviteurs les Maiars. C&apos;est à cette période que Melkor, alias Morgoth, puissant Valar, prend son indépendance et se tourne vers le mal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Curumo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Saruman en langue commune. Chef des Istari dans un premier temps, avant de perdre foi en les Valars, et de se laisser corrompre par Sauron.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dalien</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Après l&apos;invasion des Gens-Des-Chariots (des hommes orientaux), certains nordiques ont fuis vers le nord, pour s&apos;installer dans la cité Le Val (Dale en anglais). La langue développée dans cette ville par la suite est le Dalien.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Degré_de_Civilisation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">repésente le comportement d&apos;une race
+
+raffiné &gt; civilisé &gt; tribal &gt; bestial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dieu</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le monde de Tolkien est dirigé par plusieurs divinitées. Iluvatar est le &quot;Dieu des dieux&quot; de l&apos;univers de Tolkien, et est à l&apos;origine des autres dieux, les Ainurs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dunedain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Descendant des Numénoréens, restés fidèles aux Valars.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dunedains_de_L_Arnor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dunédains vivant dans le royaume du nord, l&apos;Arnor. Descendants d&apos;Elendil.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hommes ayants combattus auprès des Elfes lors des guerres contre Morgoth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eldar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Elfes ayant rejoins les Valars en Valinors pendant les Années de arbres.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elfe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Premiers Enfants d&apos;Iluvatar, les Elfes naissent pendant les Années des arbres. La majorité d&apos;entre eux traverse alors la mer pour vivre avec les Valars en Valinor, et deviennent les Eldars. Ceux qui restent en Terre du Milieu deviennent les Avari.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elrond</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Elrond, le Semi Elfe, est un Noldor dont le père est Ëarendil, un roi Homme. les Valars lui donnent le choix de vivre comme Homme ou comme Elfe, et il choisit Elfe. A l&apos;époque du Seigneur des Anneaux, il reigne sur Fondcombe, et est à l&apos;origine de la communauté de l&apos;Anneau lors du conseil d&apos;Elrond.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Créé par Iluvatar suite à une suggestion de Yavanna (nous admettrons Yavanna comme leur créatrice), les Ents sont les bergers des arbres et des choses qui poussent. Ils sont neutres par nature, mais détestent les orques et les créatures de Morgoth, et interviennent donc dans la guerre de l&apos;anneau en renversant Isengard, après que Saruman ai dévasté leur forêt.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Entique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ce sont les anciens Elfes qui ont appris aux arbres à parler, et ont appris à les comprendre, avant le départ de certains pour le Valinor. La langue est un long murmure, lent et répétitif, montant et descendant, avec beaucoup de voyelles et des tons mélodiques. Exemple : Taurelilomëa-tumbalemorna Tumbaletaurëa Lomëanor serait à transcrire « Forêttrès ombreuse-profondevalléenoire-Terresombreprofondevalléeforestière », soit plus ou moins « il y a une ombre noire dans les combes profondes de la forêt »</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eomer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neveu de Théoden, Roi du Rohan lors de la guerre de l&apos;anneau. Son impact sur la guerre de l&apos;anneau est important, et il devient roi du Rohan à la fin de celle ci, après la mort au combat de Théoden et plus tôt de son fils.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Epoque</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Différentes époques de la chronologie du monde de Tolkien. Elles nosu permettent ici de définir à peu près l&apos;époque d&apos;apparition des races, et de dater la mythologie.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fangorn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ent ayant un rôle important lors de la guerre de l&apos;anneau, il est le chef des ents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fondcombe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vallée fictive des Monts Brumeux. Le terme sindarin Imladris évoque de même une vallée profondément encaissée, comme fendue dans les escarpements qui l&apos;entourent. Par métonymie, ce terme (Fondcombe) est également employés pour désigner la demeure d&apos;Elrond elle-même, construite après la fuite d’Eregion en l’an 1697. Celle-ci est également désignée sous le nom de Dernière Maison Simple ou Dernière Maison Hospitalière (Last Homely House) en référence à son statut de dernier lieu de résidence d&apos;Eldar en Terre du Milieu et de dernier établissement avant les Monts Brumeux et les Terres Sauvages qui s&apos;étendent à l&apos;est.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ForcePhysique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Représente la force physique d&apos;une race. Pour echelle, un homme sera considéré fort.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ForcePhysique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">faible&lt;fort&lt;surhumain&lt;colossal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Forts</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plus grands et plus lourds, les Forts vivent sur des terrains plat près des rivières. Ils sont les seuls Hobbit à savoir nager et à ne pas avoir peur de l&apos;eau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gimli</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gimli, fils de Gloin, est le Nain membre de la Communauté de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gondor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fondé en l’an 3320 du deuxième âge par Elendil le Numenoreen, le Gondor était le royaume du sud des Dunedains de la terre du milieu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grishnakh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grishnakh est un orque au service de Sauron. Il est envoyé pendant la guerre de l&apos;anneau intercepter la communauté de l&apos;anneau à la tête d&apos;une patrouille d&apos;une cinquantaine d&apos;orques.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gwaihir</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chef des Aigles. Joue un rôle marquant dans la guerre de l&apos;anneau et dans la bataille des 5 armées.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hobbit</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Il y a peu de détails dans l&apos;oeuvre de Tolkien sur l&apos;origine des Hobbits. Ils sont d&apos;un naturel bon vivant et sympathique, et détestent tout ce qui sort de leur ordinaire. Par conséquent, bien qu&apos;il s&apos;agisse des protagonistes favoris de Tolkien dans ses romans, il n&apos;arrive que peu de chose dans la Comté, leur pays.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Homme</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Représente l&apos;humanité de l&apos;univers de Tolkien. Second enfants d&apos;Iluvatar, ils ont un don ; la possibilité de mourir. L&apos;appelation de &quot;don&quot; pour la mortalité est expliquée dans les textes de Tolkien, et souvent incomprise des Hommes eux mêmes (exemple marquant : la chute de Numenor)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hommes_De_Dale</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Habitants de la ville Le Val (Dale en anglais)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hommes_Du_Gondor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dunédains vivants dans le royaume du Gondor. Descendants d&apos;Isildur.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Iluvatar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Il y eu Eru, le premier, qu&apos;en Arda on appelle Iluvatar&quot;. Iluvatar est le dieu créateur de l&apos;univers de Tolkien, il est à l&apos;origine de tout le reste (des autres dieux en particulier)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Istari</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Les Sages&quot; en Quenya. Ils sont envoyés en Terre Du Milieu au troisième âge pour rassembler les Hommes et les Elfes dans la lutte contre Sauron. On ne connait pas leur nombre, mais on connait 5 de leurs chefs, Curumo (Saruman), Aiwendil (Radagast), Olorin (Gandalf), Pallando et Alatar. Chacun est associé à un Valar : Curumo à Aulë, Alatar à Oromë, Pallando à Oromë (ou Mandos et Nienna), Aiwendil à Yavanna et Olórin à Lórien, ainsi qu&apos;à Manwë et Varda.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kuzdul</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le khuzdul ou nanien (Dwarvish en anglais) est la langue propre au peuple des Nains, qui la reçurent de leur créateur Aulë. Ils la transcrivaient principalement par un système d&apos;écriture runique appelé cirth. Au cours de l&apos;histoire d&apos;Arda, la langue évolue très peu en comparaison avec les langues elfiques et humaines.Quelques exemples : Baraz « rouge » ; Khuzd « Nain » ; Zâram « lac », Sharbhund « Colline chauve », Balin Fundinul uzbad Khazad-dûmu « Balin fils de Fundin, Seigneur de la Moria » ; Baruk Khazâd! Khazâd ai-mênu! « Les haches des Nains ! Les Nains sont sur vous ! ».</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Langue</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tolkien a consacré une grande partie de sa vie à l&apos;étude des langues, et en particulier à la création de langues. Il a étudié avec ferveur les langues scandinaves, et les langues inventées telles que l&apos;esperanto. Le but premier, pour lui, de la création de son monde imaginaire a été de créer un monde où faire vivre les langues qu&apos;il a inventé.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Le_Val</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le Val se situe au pied de la montagne solitaire, en Rhovanion. les habitants sont les nordiques ayant fuis les Gens-Des-Chariots vers le nord, et subsistent grâce au commerce avec les nains du royaume d&apos;Erebor sous la montagne.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Legolas</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Fils de Thranduil, Roi des Elfes Sylvains de VertBois Le Grand, Legolas fait parti de la communauté de l&apos;anneau et joue un rôle important dans la guerre de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Localité</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lieux marquants d&apos;Arda, le monde de Tolkien.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lothlorien</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Parfois surnommé Lorien en écho à un jardin de Valinor, c’est le plus beau royaume elfique restant sur la terre du milieu au troisième âge. Il se situe dans la forêt d’or, à l’est des monts brumeux, au delà des portes de la moria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maiar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ainurs de second rang, servants les Valars. Ils sont beaucoup plus nombreux que ces derniers, mais peu sont nommés.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Manwë</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Chef des Valars</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Morgoth</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Anciennement Melkor, Morgoth est un Valar déchu et corrompu, qui dans les temps de la création du monde à voulu échapper à la volonté d&apos;Iluvatar. Il en a été puni et nourri depuis une haine sans fin pour toute création d&apos;Iluvatar. Il est vaincu à la fin du premier âge, et est exilé en dehors du monde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Morphologie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Morphologie de la race concernée</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mythologie</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sujet de l&apos;ontologie ; la mythologie du monde imaginaire de Tolkien</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nain</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mineurs et artisans hors pairs, les Nains ont été créés par Aulë sans l&apos;accord d&apos;Iluvatar. Iluvatar les accepte dans son monde, mais les endors pour qu&apos;ils ne puissent y évoluer qu&apos;après la naissance des enfants d&apos;Iluvatar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Noir_Parler</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Langue crée par Sauron au cours des Années Sombres du Deuxième Age. C’est la langue de Barad-dûr et des capitaines du Pays sombre. Les Olog-hai, une race de Trolls « remplie de l’esprit malin » de Sauron étant apparue vers la fin du Troisième  ge, ne savaient s’exprimer que dans cette même langue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Noldor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Les Sages&quot; en Quenya, car les plus habiles de leur mains et les plus assoiffés de connaissance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nordique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hommes étants resté en Terre du Milieu et n&apos;étant jamais allé à Numenor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Numenor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ile sortie des eaux par les Valars en récompense pour les hommes ayants combattu Morgoth au premier âge, Numenor accueille un royaume puissant et avancé. Seulement, les habitants développèrent au cours du temps un ressentiment croissant pour leur mortalité, et commencèrent à chercher l&apos;immortalité. Pour ce faire ils décident de partir en guerre contre les Valars pour leur en arracher le secret. Iluvatar intervient alors, en coulant l&apos;Ile. Les Numénoréens restés fidèles aux Valars réussissent à s&apos;enfuir, et fondent en Terre du Milieu les royaumes du Gondor et de l&apos;Arnor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Olog-Hai</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Trolls plus puissants et intelligents, ne craignant plus la lumière.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Olorìn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gandalf le Gris en langue commune. A première vue le moins imposant des Istari, il devient Gandalf le Blanc et prends la tête des Istaris à la fin du troisième âge. Joue un rôle décisif dans la guerre de l&apos;anneau en apportant son aide à la communauté de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Orientaux</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hommes d&apos;ayant pas rejoins les Elfes dans les guerres contre Morgoth. Ils sont souvent associés aux serviteurs de l&apos;Enemi, Morgoth ou Sauron selon l&apos;époque.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Orque</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les Orques sont le fruit de la malveillance de Morgoth. Il s&apos;agit à l&apos;origine d&apos;Elfes capturés et torturés par Morgoth juqu&apos;à devenir des créatures mortelles, sans pitié et fonciérement mauvaises.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pallando</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Un des deux mages bleu, envoyés lutter contre Sauron dans l&apos;est.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Peregrin_Touc</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ami de Frodon et membre de la communauté de l&apos;anneau, son surnom est Pippin. Doit sa grande taille au brevage des Ents qu&apos;il boit dans la foret de Fangorn lors de son aventure pendant la guerre de l&apos;anneau.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pieds_Velus</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Petits et bruns de peau, ce sont les Hobbits les plus nombreux. Ils ont gardés l&apos;habitude après leur relations passés avec les Nains de vivre sous terre, dans des habitation confortable. &quot;Par n&apos;importe quel trou, c&apos;était un trou de Hobbit, ce qui signifiait du confort!&quot; ecrira Tolkien dans &quot;le Hobbit&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pâles</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Peau et cheveux pales, ce sont les moins nombreux des Hobbits. Ils aiment les arbres et les forêts, et s&apos;entendent bien avec les Elfes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Quenya</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">le Quenya est la langue elfique la plus importante. La grande majorité des elfes la parle, et pour des questions de simplification ce sera la seule langue elfique définie dans cette ontologie.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Race</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Différentes races formants la mythologie de Tolkien</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rohan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le “pays des chevaux”, fondé en l’an 2510 du troisième âge. Il s’agit de la province du Calenardhon du Gondor, offerte aux Eothéods après la bataille du champ du Celebrant en remerciement de leur intervention.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rohirric</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les hommes implantés dans le val d&apos;Anduin (devenant les Éothéod, le « peuple des Cavaliers ») ont vu leur langue évoluer vers le rohirique (ou rohanais), la langue du royaume du Royan au Troisième  ge.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rohirrims</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Habitants du Rohan, contrée donnée aux rohirrims par le Gondor pour leur aide dans une guerre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Royaume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sauron</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maiar corrompu par Mogoth, il en est le premier et plus puissant lieutenant, avant de devenir le &quot;nouveau&quot; seigneur des ténébres quelques temps après la chute de Morgoth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Taille</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les tailles indiquées sont relatives et non précises. Pour echelle, &quot;Grand&quot; correspond à la taille d&apos;un homme adulte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Teleri</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Derniers Eldars à rejoindre Valinor, leur nom signifie en Quenya &quot;Ceux qui vinrent en dernier&quot;. Réputés pour leur belle voix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Troll</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Créature créée par Morgoth en pale copie de la puissance des Ents. Ils ont une faiblesse majeure, outre leur stupidité ; ils ne supportent pas la lumière (dans &quot;Le Hobbit&quot;, trois d&apos;entre eux sont changés en pierre en s&apos;exposant aux premier rayons de l&apos;aube.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Uruk-Hai</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Créés par Sauron et Saruman pendant la guerre de l&apos;anneau, il s&apos;agit d&apos;orques plus puissants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Valar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Les 14 plus puissants Ainurs partis vivre en Arda. Ils reignent sur le monde depuis Valinor. Leur chef est Manwë.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Valarin</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plus ancienne langue d’Arda, le Valarin (ou lambe valarinwa) est la langue des Valar auto-incarnés (c&apos;est-à-dire de ceux des Ainur qui décidèrent de « prendre forme » en Arda.). Plusieurs termes de Quenya en sont inspirés.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Valinor</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Royaume des Valars. Situé à l&apos;Ouest de la Terre du milieu surles Terres Immortelles, de l&apos;autre coté de la mer. Il s&apos;agit de la destination des Elfes pendant le troisième âge, qui quittent la Terre du Milieu pour laisser leur place aux Hommes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Vanyar</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Premiers Eldars à arriver en Valinor, ils y restent définitivement et ne viendront en Terre du Milieu que lors de la guerre de la colère pour vaincre Morgoth. Ils retournent ensuite à Valinor. Ils sont les moins nombreux des Eldars, et leur nom signifie en Quenya &quot;les Blonds&quot;, surnom donné par les Noldors qui aimaient leur couleur de cheveux.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#VertBois_Le_Grand</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">VertBois Le Grand est la plus grande forêt du Rhovanion. Elle subit avant et pendant la guerre de l&apos;anneau l&apos;influence de Sauron, qui investi le sud de la forêt dans sa forteresse de Dol-Guldur. La forêt est alors investie par des bêtes sauvages et créatures de l&apos;Enemi, et prend le nom de la Forêt Noire. Ce n&apos;est qu&apos;après la guerre de l&apos;anneau que les Elfes Sylvains et de Lothlorien rase Dol-Guldur et chassent l&apos;ombre de la forêt.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Westron</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Le Westron, aussi appelé parler commun (sóval phárë dans cette langue) correspond à la langue commune, de l’Arnor au Gondor. Les Hobbits adoptèrent aussi le westron, mais parlaient une forme plus dialectale et rustique, le hobbitique qui ne faisait, par exemple, pas la distinction entre le registre familier (tu) et le déférent (vous), ce qui amusa Denethor II (mais horrifia ses serviteurs) quand Peregrin Touque s’adressa à lui en le tutoyant.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Yavanna</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Valar associé à la nature.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+
